@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    /* text-align: center;      */      
+}
+
+.full-background-img{
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+    z-index: -1;   
+}
+
+h1{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;       
+    /* margin: 0; */
+    color: aliceblue;   
+}
+
+h2,p,ul{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.title-text{
+    margin: 130px;
+    position: absolute;    
+    /* top: 10%; */
+    /* left: 50%;           */
+}
+
+.programmer{    
+    font-weight: 900;
+    font-size: 30px;
+    font-variation-settings:
+      "wdth" 100;
+    /* margin-top: 50px; */
+    color: aliceblue;
+    margin-top: 420px;        
+}
+
+span{
+    color: red;
+}
+
+.title-background{
+    width: 100%; 
+    height: 100vh;     
+}
+
+.top-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+    width: 100%;    
+}
+
+.profile{    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-picture{    
+    height: 250px;
+    border-radius: 50%;
+    width: 270px;
+    margin-top: 70px;
+}
+
+/* .middle-container{
+    display: flex;
+    flex-direction: column;    
+} */
+
+.middle-container>h2{
+    margin: 10px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    color:cadetblue;    
+}
+
+.middle-container p{    
+    font-size: 20px;
+    width: 30%;
+    margin: auto;  
+    padding: 10px;
+    text-align: center; 
+}
+
+.hobbies{
+    display: flex;
+    justify-content: center;
+}
+
+.middle-container>ul{
+    /* text-align: center;     */
+    font-size: 15px;           
+}
+
+.dotted-hr{
+    margin: 50px auto;
+    width: 10%;
+    border: cadetblue dotted 5px;
+    border-bottom: none;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* align-items: center;            */
+    gap: 25px;
+    max-width: 97%;
+}
+
+.item{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.skills>ul{
+    margin: 0px;         
+}
+
+.skills-img{ 
+    max-width: 60%;
+    height: 400px;        
+}
+
+h3{
+    color: cadetblue;
+}
+
+.skills>li{
+    color: cadetblue;    
+}
+
+.grid-container ul{
+    list-style: none;
+}
+
+.sublist{    
+    list-style:square;
+}
+
+.button{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.education-img{
+    max-width: 60%;
+    height: 400px;
+}
+
+.experience-img{
+    max-width: 60%;
+    height: 400px;
+}
+
+.experience-sublist li{
+    list-style: disc;   
+}
+
+.contact-me{
+    /* background-color: cadetblue; */
+    background: linear-gradient(cadetblue, rgb(5, 201, 208));
+    border: none;    
+    font-size: 40px;
+    border-radius: 5px; 
+    margin-bottom: 50px;   
+}
+
+.footer{
+    margin-top: 20px;
+    width: 100%;    
+    height: 170px;    
+}
+
+.icon{
+    width: 30px;
+    margin-right: 10px;    
+}
+
+.contact-info p{
+    margin: 0;
+}
+
+.contact-info{
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;    
+}
+
+.copyright>p{
+    margin: 0;
+}
+
+
+@media (max-width: 1500px){
+
+    .programmer{
+        margin-top: 290px;
+    }    
+}
+
+@media (max-width: 1200px){
+    .programmer{
+        margin-top: 250px;
+    }
+}
+
+@media (max-width: 992px){
+    .programmer{
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 768px){
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .item{
+        justify-content: center;        
+    }
+}
+
+
+
+
